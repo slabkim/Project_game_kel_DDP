@@ -11,7 +11,7 @@ struct Render_state {
 
 global_variable Render_state render_state;
 
-#include "platform_common.cpp"
+#include "button.cpp"
 #include "renderer.cpp"
 #include "game.cpp"
 
