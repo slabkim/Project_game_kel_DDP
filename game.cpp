@@ -231,12 +231,12 @@ simulate_game(Input* input, float dt) {
 			current_gamemode = GM_GAMEPLAY;
 		}
 		if (hot_button == 0) {
-			draw_text("PLAY", -30, 0, 1, 0xffffff);
-			draw_text("EXIT", 20, 0, 1, 0xff0000);
+			draw_text("PRESS", -35, 0, 1, 0xffffff);
+			draw_text("ENTER", 20, 0, 1, 0xff0000);
 		}
 		else{
-			draw_text("PLAY", -30, 0, 1, 0xff0000);
-			draw_text("EXIT", 20, 0, 1, 0xffffff);
+			draw_text("PRESS", -35, 0, 1, 0xff0000);
+			draw_text("ENTER", 20, 0, 1, 0xffffff);
 		}
 		
 	}if (player_score_1 == 5) {
